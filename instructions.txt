@@ -1,0 +1,74 @@
+7
+
+0
+image ins0.txt
+text-begin
+前言
+歡迎使用櫛風牌電子書閱讀程式，祝您使用愉快
+text-end
+end
+
+
+1
+image ins1.txt
+text-begin
+目錄
+[a]前言
+[b]介紹
+[c]功能
+[e]備註
+[f]心得
+text-end
+
+goto a 0
+goto b 2
+goto c 3
+goto e 4
+goto f 5
+
+end
+2
+image ins2.txt
+text-begin
+介紹
+此閱讀器僅適用於特殊格式的電子書，
+具體電子書格式可參閱及meme.txt。
+測試可使用meme.txt跟instructions.txt
+其中meme.txt為原作業範例檔，instructions.txt即為此說明書之電子書版。
+text-end
+end
+
+3
+image ins3.txt
+text-begin
+功能
+開啟時將列出同資料夾內所有.txt檔以便使用者進行讀取。
+讀取後，依照電子書格式，不同頁面會有各種指令可進行操作
+具體如下：
+1. goto n 前往第n頁
+2. Search 搜尋字串
+3. Qsave 儲存目前頁面(程式結束即失效)
+4. Qload 載入儲存之頁面(如無儲存，講跳至第零頁)
+5. RandomPage 載入隨機頁面
+6. exit 退出程式
+text-end
+
+end
+
+4
+image ins4.txt
+text-begin
+備註
+剛收到程式碼時，因宗教之關係，將程式碼整個寫作風格大修。
+另，不知是否為電腦的問題，第二次使用Search時畫面會壞掉，故有稍加修改。
+text-end
+end
+
+5
+image ins5.txt
+text-begin
+心得
+這次作業是個不錯的體驗，嘗試了一些好玩的東西。
+感謝有這個機會，希望下次大作業也不會讓我失望，更加好玩！
+text-end
+end
